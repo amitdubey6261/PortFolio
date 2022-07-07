@@ -1,0 +1,12 @@
+.portCon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media (max-width:600px){
+    .portCon{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

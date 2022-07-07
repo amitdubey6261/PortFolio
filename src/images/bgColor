@@ -1,0 +1,9 @@
+background: rgb(16,12,71);
+background: linear-gradient(51deg, rgba(16,12,71,1) 0%, rgba(87,134,228,1) 0%, rgba(0,0,133,1) 37%, rgba(0,0,133,1) 59%, rgba(0,116,245,1) 100%, rgba(0,212,255,1) 100%);
+
+
+
+
+font-family: 'Fredoka', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Tiro Devanagari Hindi', serif;
