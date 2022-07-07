@@ -38,6 +38,13 @@ const array = [
         desc:"This application is frontend application and made under learning process of REACT",
         githubRepo:"https://github.com/amitdubey6261/DayNightusingTemp_ReactJS",
     },
+    {
+        title:"My PortFolio Itself",
+        video:"https://www.youtube.com/embed/m_7_7eo4tTc",
+        createdOn:"07-07-2022",
+        desc:"Fully functional react frontend app using React | React-Router | EmailJS | SMTPJs  Plugins",
+        githubRepo:"https://github.com/amitdubey6261/PortFolio",
+    },
 ]
 
 export class Portfolio extends Component {
