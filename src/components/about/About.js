@@ -6,6 +6,7 @@ import p5 from "../../images/astric.png"
 import react from "../../images/react.png"
 import tfjs from "../../images/tfjs.png"
 import cpp from "../../images/cpp.png"
+import Myself from './myself/Myself.js'
 
 const stateo = {
     cppVal: 85,
@@ -59,6 +60,7 @@ export class About extends Component {
                     <button onClick={hadleClick} >Check</button>
                 </div>
                 <Skillper property={this.state}/>
+                <Myself/>
             </div>
         )
     }

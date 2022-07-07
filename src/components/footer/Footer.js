@@ -13,7 +13,7 @@ export class Footer extends Component {
           <a href="https://www.linkedin.com/in/amit-dubey-2339b6204/"><i className="fa fa-linkedin" ></i></a>
           <a href="https://www.youtube.com/channel/UCmg3PieODWj1s4t_qEqIB_Q"><i className="fa fa-youtube" ></i></a>
         </div>
-        <hr style={{ border: "2px solid skyblue" }} />
+        {/* <hr style={{ border: "2px solid darkblue" }} /> */}
         <div className="copyR">
           <p><i style={{ color: "white" }}>All rights reserved 2020-2024 Powered By - Amit Dubey</i></p>
           <i className="fa fa-indianflag" ></i>

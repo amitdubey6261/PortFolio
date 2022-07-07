@@ -1,0 +1,82 @@
+.myselfCon{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+    align-items: center;    
+}
+.timeCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;  
+    /* height: 400vh;   */
+}
+.timeItem{
+    width: 50vmin;
+    background-color: rgb(0, 255, 76);
+    margin-top: 50vmin;
+    position: relative;
+    border:2vmin solid rgb(0, 116, 19);
+    top:-390vh;
+}
+#vr{
+    width: 2px;
+    height: 100vmin;
+    background-color: rgb(253, 2, 2);
+    border: 1px solid rgb(153, 5, 5);
+}
+#bord1{
+    left: 25vmin;
+}
+#bord2{
+    right: 25vmin;
+}
+#bord3{
+    left: 25vmin;
+}
+#bord4{
+    right: 25vmin;
+}
+#bord5{
+    width: 80vw;
+}
+
+.rebet{
+    background-color: brown;
+    border: 3px solid brown;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 1cm;
+    position: absolute;
+}
+
+#rb1{
+    transform: translate(-1vh,-1vh);
+}
+#rb2{
+    transform: translate(1vh,-1vh);
+    top:0;
+    right: 0;
+}
+#rb3{
+    transform: translate(-1vh,-1vh);
+}
+#rb4{
+    transform: translate(1vh,-1vh);
+    top:0;
+    right: 0;
+}
+#rb5{
+    transform: translate(39vw,-1vw);
+}
+.mainCon{
+    display: flex;
+}
+.timeCon::before{
+    content: "";
+    width: 1vw;
+    height: 400vh;
+    background-color: rgb(255, 96, 4);
+    position: relative;
+}

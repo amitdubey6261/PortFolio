@@ -1,0 +1,26 @@
+.myprofileCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.myprofileCon>h1{
+    font-size: 6vmin;
+}
+.myprofileCon>img{
+    border: 40px solid black;
+    width: 40vmin;
+}
+.credentials{
+    margin: 10vmin;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    border: 2px solid black;
+}
+.explain{
+    border: 2px solid black;
+    margin: 10vmin;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    font-size: 6vmin;
+}
