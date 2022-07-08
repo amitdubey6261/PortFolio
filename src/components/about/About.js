@@ -7,6 +7,7 @@ import react from "../../images/react.png"
 import tfjs from "../../images/tfjs.png"
 import cpp from "../../images/cpp.png"
 import Myself from './myself/Myself.js'
+import { Helmet } from 'react-helmet'
 
 const stateo = {
     cppVal: 85,
@@ -35,6 +36,11 @@ export class About extends Component {
         }
         return (
             <div className="aboutCon">
+                <Helmet>
+                    <title>
+                        My-About-Page
+                    </title>
+                </Helmet>
                 <div className="skills">
                     <h1 style={{ fontSize: "6vmin", }}>CHECK MY SKILLS</h1>
                     <div className="skill">
@@ -59,8 +65,8 @@ export class About extends Component {
                     </div>
                     <button onClick={hadleClick} >Check</button>
                 </div>
-                <Skillper property={this.state}/>
-                <Myself/>
+                <Skillper property={this.state} />
+                <Myself />
             </div>
         )
     }

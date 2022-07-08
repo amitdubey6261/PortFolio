@@ -3,11 +3,17 @@ import "./services.css"
 import robo from "../../images/iron-man.png"
 import ccoding from "../../images/coding.gif"
 import globe from "../../images/globe.png"
+import { Helmet } from 'react-helmet'
 export class Services extends Component {
     render() {
         return (
             <>
-            <center><h1 style={{fontSize:"6vmin" ,letterSpacing:"4px"}}>SERVICES</h1></center>
+                <Helmet>
+                    <title>
+                        My-Services
+                    </title>
+                </Helmet>
+                <center><h1 style={{ fontSize: "6vmin", letterSpacing: "4px" }}>SERVICES</h1></center>
                 <div className="serviceCon">
                     <div className="serviceI">
                         <h1>MachineLearing</h1>

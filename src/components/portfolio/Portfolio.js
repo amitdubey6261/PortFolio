@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./portfolio.css"
 import Cards from './cards/Cards'
+import { Helmet } from 'react-helmet'
 
 const array = [
     {
@@ -51,6 +52,11 @@ export class Portfolio extends Component {
     render() {
         return (
             <>
+            <Helmet>
+                <title>
+                    My-Port-Folio
+                </title>
+            </Helmet>
                 <center><h1 style={{ fontSize: "6vmin" }}>PROJECTS</h1></center>
                 <div className="portCon">
                     {

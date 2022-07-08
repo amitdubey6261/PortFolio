@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./hireMe.css";
+import { Helmet } from "react-helmet";
 
 const HireMe = () => {
     const form = useRef();
@@ -27,10 +28,15 @@ const HireMe = () => {
 
     return (
         <>
+            <Helmet>
+                <title>
+                    Contact-Me
+                </title>
+            </Helmet>
             <div className="formCon">
-                <h1 style={{fontSize:"6vmin"}}>CONTACT</h1>
+                <h1 style={{ fontSize: "6vmin" }}>CONTACT</h1>
                 <h2>
-                “What is the shortest word in the English language that contains the letters: abcdef? Answer: feedback. Don’t forget that feedback is one of the essential elements of good communication.”
+                    “What is the shortest word in the English language that contains the letters: abcdef? Answer: feedback. Don’t forget that feedback is one of the essential elements of good communication.”
                 </h2>
                 <form ref={form} onSubmit={sendEmail}>
                     <input className="inp" placeholder="Name" type="text" name="user_name" />
