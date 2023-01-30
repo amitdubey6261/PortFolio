@@ -5,6 +5,13 @@ import { Helmet } from 'react-helmet'
 
 const array = [
     {
+        title:"Three Js Solar System",
+        video:"https://www.youtube.com/embed/3pzoV_6dVXI",
+        createdOn:"01-01-2022",
+        desc:"Cannon And Three Js Powered Website ",
+        githubRepo:"https://github.com/amitdubey6261/SolarSystem",
+    },
+    {
         title:"Full Stack Ecommerce Website In Django",
         video:"https://www.youtube.com/embed/WX3t990bmO4",
         createdOn:"1-07-2021",
