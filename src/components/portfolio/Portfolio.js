@@ -5,9 +5,30 @@ import { Helmet } from 'react-helmet'
 
 const array = [
     {
+        title:"3d Typing dash",
+        video:"https://www.youtube.com/embed/cfaZtkbETX8",
+        createdOn:"31-01-2023",
+        desc:"The problem that '3DTypingDash' solves is improving typing speed and accuracy for individuals and organizations as we know how benificial can a good typing speed be in a daily life scinario. By using this project, users can improve their typing skills and increase their efficiency in their work and personal life which in case include: Increases typing proficiency and speed, leading to increased productivity. Helps to reduce typos and errors in written work. Improves hand-eye coordination and muscle memory for typing. Enhances overall computer skills and proficiency. Offers a variety of typing exercises and tests to cater to different skill levels and needs.",
+        githubRepo:"https://devfolio.co/projects/d-typingdash-240b",
+    },
+    {
+        title:"NoteChat",
+        video:"https://www.youtube.com/embed/rLjDezFgg8g",
+        createdOn:"20-02-2022",
+        desc:"Django Based Full Stack Notes Taking Application Built in 24Hrs in Hackathon",
+        githubRepo:"https://github.com/amitdubey6261/SolarSystem",
+    },
+    {
         title:"Three Js Solar System",
         video:"https://www.youtube.com/embed/3pzoV_6dVXI",
         createdOn:"01-01-2022",
+        desc:"Cannon And Three Js Powered Website ",
+        githubRepo:"https://github.com/amitdubey6261/SolarSystem",
+    },
+    {
+        title:"Cannon Engine Implimentation",
+        video:"https://www.youtube.com/embed/8N_6_t8S7Tg",
+        createdOn:"01-02-2022",
         desc:"Cannon And Three Js Powered Website ",
         githubRepo:"https://github.com/amitdubey6261/SolarSystem",
     },
